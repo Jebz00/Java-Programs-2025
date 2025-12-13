@@ -1,6 +1,10 @@
 public class Q4 {
-        public static void main(String[] args) {
-        int num = 123;
-        System.out.println(num);
+    public class DistanceTravelled {
+    public static void main(String[] args) {
+        double speed = 60;
+        double time = 2.5;
+        double distance = speed * time;
+        System.out.println("Distance: " + distance + " km");
     }
-}
+    
+}}

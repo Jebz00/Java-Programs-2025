@@ -1,5 +1,10 @@
 public class Q1 {
     public static void main(String[] args) {
-        System.out.println("Welcome");
+        double originalPrice = 1000;
+        double discountPercent = 20;
+        double discount = originalPrice * discountPercent / 100;
+        double finalPrice = originalPrice - discount;
+        System.out.println("Final Price: " + finalPrice);
     }
-} //1st question
+    
+}

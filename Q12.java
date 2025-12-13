@@ -1,10 +1,10 @@
 public class Q12 {
-    
-class Main {
+    public class CostPrice {
     public static void main(String[] args) {
-        int ascii = 65;       // change as needed
-        char ch = (char) ascii;
-        System.out.println(ch);
+        double sellingPrice = 900;
+        double lossPercent = 10;
+        double costPrice = sellingPrice / (1 - lossPercent / 100);
+        System.out.println("Cost Price: " + costPrice);
     }
-}}
-
+}
+}
